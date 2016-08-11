@@ -1,0 +1,7 @@
+.link-to a {
+    display: inline-block;
+    min-width: 180px;
+}
+.f-hide {
+    display: none;
+}

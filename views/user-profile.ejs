@@ -1,0 +1,14 @@
+<% include partials/header.ejs %>
+<% include partials/nav.ejs %>
+<div class="jumbotron">
+    <h1><a href="javascript:void(0)" class="btn btn-default btn-fab"><i class="material-icons">grade</i></a> About this user</h1>
+
+    <ul class="user-info">
+        <li><strong>Name:</strong> <%= user.name %></li>
+        <li><strong>Type:</strong> <%= user.type %></li>
+        <li><strong>Age:</strong> <%= user.age %></li>
+    </ul>
+
+    <p><a class="btn btn-primary btn-lg">Learn more</a></p>
+</div>
+<% include partials/footer.ejs %>
